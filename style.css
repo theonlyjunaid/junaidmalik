@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@600&display=swap');
+@media only screen and (min-width: 600px){
+*{margin: 0;
+padding: 0;}
+
+/* .nav{display: flex;
+justify-content: space-between;
+background-color: blanchedalmond;
+align-items: center;
+padding: 1.5em;
+height: 6.5vh;
+background-color: black;}
+
+.left ul{list-style: none;
+display: flex;
+}
+
+.left ul a{text-decoration: none;
+padding: 2em;
+font-size: 1.4em;
+color: whitesmoke;
+}
+
+.right{font-size: 2.5em;
+    padding-left: 1em;
+    color: whitesmoke;
+
+} */
+section{height: 100vh;}
+#Home{height: 100vh;
+background-color:rgb(0, 0, 0);
+display: block;
+color: white;}
+/* section:nth-of-type(even){background-color: brown;}
+section:nth-of-type(odd){background-color: green;} */
+footer{
+    background-color: black;
+    color: white;
+text-align: center;
+padding:10px;
+}
+footer a{text-decoration: none;
+color: white;
+font-weight: bold;}
+.hello{
+    display: none;
+}
+.junaid{height: 100vh;
+
+    float: right;
+    }
+
+.icons{
+    display: flex;
+    position: relative;
+    top: 2vh;
+
+}
+    
+.icon{
+    display: none;
+}
+.ic{padding: 20px;
+color: white;}
+.intro{
+    color: white;
+    padding-left: 25vh;
+    padding-top: 15vh;
+    
+
+}
+.intro p{    font-size: 17px;
+    margin: 5px 0 10px 10px;
+    padding: 0px;}
+.links{
+    text-decoration: none;
+    color: orange;   
+}
+#name{
+    font-weight: normal;
+    padding: 25px 0 0;
+    margin: 0px;
+    font-size: 100px;
+}
+}
+    
+
+@media only screen and (max-width: 600px) {
+    *{margin: 0;
+        padding: 0;}
+
+    section{height: 100vh;}
+#Home{height: 100vh;
+background-color:rgb(0, 0, 0);
+display: block;
+color: white;}
+/* section:nth-of-type(even){background-color: brown;}
+section:nth-of-type(odd){background-color: green;} */
+footer{
+    background-color: black;
+    color: white;
+text-align: center;
+padding:10px;
+}
+footer a{text-decoration: none;
+color: white;
+font-weight: bold;}
+.junaid{height: 100vh;
+display: none;
+float: right;
+}
+
+.hello{
+
+    border-radius: 50%;
+    display: flex;
+    height: 18vh;
+    width: 18vh;
+    border: oldlace 1px solid;
+}
+.pic{
+padding-top: 3vh;
+padding-left: 6vh;
+}
+.icons{
+    display: none;
+
+}
+.icon{
+    display: flex;
+    position: relative;
+    top: 1vh;
+
+}    
+.ico{padding: 10px;
+color: white;}
+.intro{
+    color: white;
+    padding-left: 5vh;
+
+    
+
+}
+.intro p{    font-size: 12px;
+    margin: 5px 0 10px 10px;
+    padding: 0px;}
+.links{
+    text-decoration: none;
+    color: orange;   
+}
+#name{
+    font-weight: normal;
+    padding: 15px 6px 0;
+
+    font-size: 40px;
+}
+
+
+  }
+
+
+
